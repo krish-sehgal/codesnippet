@@ -15,7 +15,7 @@ const userSchema = new Schema({
         unique: true,
         required: true,
     },
-    avtar: {
+    avatar: {
         type: String,
     },
     streakCount: {
